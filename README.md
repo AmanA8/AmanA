@@ -1,49 +1,100 @@
-
 <html lang="ru">
   <head>
     <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Aman | My Page</title>
+    <img src="AnimeFormat.jpg" alt="Aman's Portrait" class="profile-pic" />
     <style>
+      .profile-pic {
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+        object-fit: cover;
+        display: block;
+        margin: 20px auto;
+        border: 3px solid #3498db;
+      }
+      :root {
+        --primary-color: #3498db;
+        --dark-color: #2c3e50;
+        --bg-color: #f4f4f9;
+        --card-bg: #ffffff;
+      }
+
       body {
-        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
         line-height: 1.6;
         max-width: 800px;
         margin: 40px auto;
         padding: 0 20px;
-        background-color: #f4f4f9;
+        background-color: var(--bg-color);
         color: #333;
+        animation: fadeIn 1s ease-in;
       }
+
+      @keyframes fadeIn {
+        from {
+          opacity: 0;
+          transform: translateY(10px);
+        }
+        to {
+          opacity: 1;
+          transform: translateY(0);
+        }
+      }
+
       h1 {
         text-align: center;
-        color: #2c3e50;
+        color: var(--dark-color);
+        font-size: 2.5em;
+        margin-bottom: 30px;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
       }
+
       h2 {
-        color: #2c3e50;
-        border-bottom: 2px solid #3498db;
-        padding-bottom: 10px;
-        margin-top: 30px;
+        color: var(--dark-color);
+        border-bottom: 3px solid var(--primary-color);
+        padding-bottom: 8px;
+        margin-top: 40px;
+        display: flex;
+        align-items: center;
       }
+
       ul {
         list-style-type: none;
         padding: 0;
       }
+
       li {
-        margin-bottom: 10px;
-        padding: 12px;
-        background: white;
-        border-radius: 8px;
-        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        margin-bottom: 12px;
+        padding: 15px;
+        background: var(--card-bg);
+        border-radius: 10px;
+        box-shadow: 0 3px 6px rgba(0, 0, 0, 0.05);
+        transition:
+          transform 0.2s ease,
+          box-shadow 0.2s ease;
       }
-      
+
+      li:hover {
+        transform: translateY(-3px);
+        box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+      }
+
+      b {
+        color: var(--primary-color);
+      }
+
       .video-responsive {
         position: relative;
         padding-bottom: 56.25%;
         height: 0;
         overflow: hidden;
-        margin: 20px 0;
-        border-radius: 12px;
-        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+        margin: 25px 0;
+        border-radius: 15px;
+        box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
       }
+
       .video-responsive iframe {
         position: absolute;
         top: 0;
@@ -52,45 +103,70 @@
         height: 100%;
         border: 0;
       }
+
+      footer {
+        text-align: center;
+        margin-top: 50px;
+        font-size: 0.9em;
+        color: #888;
+      }
     </style>
   </head>
   <body>
     <h1>Welcome to Aman's Page</h1>
 
-    <h2>My Hobbies</h2>
+    <h2>🎮 My Hobbies</h2>
     <ul>
-      <li>📺 <b>Anime:</b> Watch anime (Isekai)</li>
-      <li>🌅 <b>Nature:</b> Watch the sunset</li>
-      <li>🎮 <b>Gaming:</b> Mobile Legends, Roblox TDS, Minecraft</li>
+      <li>📺 <b>Anime:</b> Watch anime (Isekai is life!)</li>
+      <li>🌅 <b>Nature:</b> Watch the sunset and chill</li>
+      <li>🕹️ <b>Gaming:</b> Mobile Legends, Roblox TDS, Minecraft</li>
     </ul>
 
-    <h2>Favorite Media</h2>
+    <h2>⭐ Favorite Media</h2>
     <ul>
       <li>🎬 <b>Top Anime:</b> Tensei Shitara Slime Datta Ken</li>
-      <li>🕹️ <b>Current Game:</b> Cyberpunk 2077</li>
+      <img src="RimuruTempest.gif" alt="Rimuru" class="side-img" />
+      <li>🏙️ <b>Current Game:</b> Cyberpunk 2077</li>
+      <img src="Cyberpunk2077.gif" alt="Cyberpunk" class="side-img" />
       <li>🎵 <b>Best Song:</b> PXLAP - Unforgettable</li>
+      <div class="video-responsive">
+        <iframe
+          src="https://www.youtube-nocookie.com/embed/0Lk-Dvxuyc0"
+          title="PXLAP - Unforgettable"
+          allow="
+            accelerometer;
+            autoplay;
+            clipboard-write;
+            encrypted-media;
+            gyroscope;
+            picture-in-picture;
+            web-share;
+          "
+          allowfullscreen
+        ></iframe>
+      </div>
     </ul>
 
-    <h2>My favorite song</h2>
+    <h2>🎁 Recommended Video XDD</h2>
     <div class="video-responsive">
       <iframe
-        src="https://www.youtube-nocookie.com/embed/0Lk-Dvxuyc0?si=Y1mx1i3wM4tInul_"
-        title="YouTube video player"
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-        referrerpolicy="strict-origin-when-cross-origin"
+        src="https://www.youtube-nocookie.com/embed/dQw4w9WgXcQ?start=42"
+        title="Never Gonna Give You Up"
+        allow="
+          accelerometer;
+          autoplay;
+          clipboard-write;
+          encrypted-media;
+          gyroscope;
+          picture-in-picture;
+          web-share;
+        "
         allowfullscreen
       ></iframe>
     </div>
 
-    <h2>Recommended Video XDD</h2>
-    <div class="video-responsive">
-      <iframe
-        src="https://www.youtube-nocookie.com/embed/dQw4w9WgXcQ?si=owP5YXXEfHhDpuyj&amp;start=42"
-        title="YouTube video player"
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-        referrerpolicy="strict-origin-when-cross-origin"
-        allowfullscreen
-      ></iframe>
-    </div>
+    <footer>
+      <p>© 2026 Aman. Made with ❤️ and Code.</p>
+    </footer>
   </body>
 </html>
