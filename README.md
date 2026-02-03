@@ -66,7 +66,7 @@
     <li>🎵 <b>Best Song:</b> PXLAP - Unforgettable</li>
   </ul>
 
-  <h2>Atmosphere</h2>
+  <h2>My Favorite Song</h2>
   <div class="video-responsive">
     <iframe 
       src="https://www.youtube-nocookie.com/embed/0Lk-Dvxuyc0?si=lc4zAMC7utIwRzWb&amp;controls=0" 
@@ -77,7 +77,7 @@
     </iframe>
   </div>
 
-  <h2>Recommended Video</h2>
+  <h2>😆</h2>
   <div class="video-responsive">
     <iframe 
       src="https://www.youtube-nocookie.com/embed/dQw4w9WgXcQ?si=owP5YXXEfHhDpuyj&amp;start=42" 
