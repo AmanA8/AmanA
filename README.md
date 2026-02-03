@@ -1,7 +1,7 @@
 <html lang="ru">
 <head>
   <meta charset="UTF-8" />
-  <title>Aman | My Page</title>
+  <title>Aman/title>
   <style>
     body {
       font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -65,10 +65,10 @@
     <li>🎵 <b>Best Song:</b> PXLAP - Unforgettable</li>
   </ul>
 
-  <h2>My Favorite Song</h2>
+  <h2>My favorite song</h2>
   <div class="video-responsive">
     <iframe 
-      src="https://www.youtube-nocookie.com/embed/0Lk-Dvxuyc0?si=lc4zAMC7utIwRzWb&amp;controls=0" 
+      src="https://www.youtube-nocookie.com/embed/0Lk-Dvxuyc0?si=Y1mx1i3wM4tInul_" 
       title="YouTube video player" 
       allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
       referrerpolicy="strict-origin-when-cross-origin" 
@@ -76,7 +76,7 @@
     </iframe>
   </div>
 
-  <h2>😆</h2>
+  <h2>Recommended Video XDD</h2>
   <div class="video-responsive">
     <iframe 
       src="https://www.youtube-nocookie.com/embed/dQw4w9WgXcQ?si=owP5YXXEfHhDpuyj&amp;start=42" 
