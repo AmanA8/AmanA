@@ -125,9 +125,9 @@
     <h2>⭐ Favorite Media</h2>
     <ul>
       <li>🎬 <b>Top Anime:</b> Tensei Shitara Slime Datta Ken</li>
-      <img src="https://github.com/user-attachments/assets/40daa0dd-1323-4d80-9fbe-41ad8854beaa" alt="Rimuru" class="side-img" />
+      <img src="RimuruTempest.gif" alt="Rimuru" class="side-img" />
       <li>🏙️ <b>Current Game:</b> Cyberpunk 2077</li>
-      <img src="https://github.com/user-attachments/assets/a83536b7-890e-4096-a9f4-8fdf9e52ad6e" alt="Cyberpunk" class="side-img" />
+      <img src="Cyberpunk2077.gif" alt="Cyberpunk" class="side-img" />
       <li>🎵 <b>Best Song:</b> PXLAP - Unforgettable</li>
       <div class="video-responsive">
         <iframe
