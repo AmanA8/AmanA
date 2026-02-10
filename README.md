@@ -1,5 +1,3 @@
-![Cyberpunk2077](https://github.com/user-attachments/assets/262767d9-eb36-402f-bf29-3019e7e64bae)
-![RimuruTempest](https://github.com/user-attachments/assets/467a78f4-aa09-4bc4-a71e-3483c486cd39)
 <html lang="ru">
   <head>
     <meta charset="UTF-8" />
@@ -122,9 +120,11 @@
     <h2>⭐ Favorite Media</h2>
     <ul>
       <li>🎬 <b>Top Anime:</b> Tensei Shitara Slime Datta Ken</li>
-      ![RimuruTempest](https://github.com/user-attachments/assets/467a78f4-aa09-4bc4-a71e-3483c486cd39)
+<iframe
+      ![RimuruTempest](src="https://github.com/user-attachments/assets/8f1e2845-92f6-4f27-855d-f8252e2fc9e4")
       <li>🏙️ <b>Current Game:</b> Cyberpunk 2077</li>
-      ![Cyberpunk2077](https://github.com/user-attachments/assets/262767d9-eb36-402f-bf29-3019e7e64bae) />
+      ![Cyberpunk2077](src="https://github.com/user-attachments/assets/8dd2f571-75c1-4a48-8d8f-97d94a02326a")
+></iframe>
       <li>🎵 <b>Best Song:</b> PXLAP - Unforgettable</li>
       <div class="video-responsive">
         <iframe
