@@ -1,0 +1,148 @@
+:root {
+  --primary-color: #3498db;
+  --dark-color: #2c3e50;
+  --bg-color: #f4f4f9;
+  --card-bg: #ffffff;
+  --blue-header: #2196f3;
+  --border-color: #e0e0e0;
+}
+
+body {
+  font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+  line-height: 1.6;
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 0 20px;
+  background-color: var(--bg-color);
+  color: #333;
+}
+
+/* Стили профиля и картинок */
+.profile-pic {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  display: block;
+  margin: 20px auto;
+  border: 3px solid var(--primary-color);
+}
+
+.side-img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  border-radius: 12px;
+  margin: 15px 0;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Стили Календаря */
+.calendar-container {
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  margin: 40px 0;
+}
+
+.calendar-header {
+  padding: 20px;
+  font-size: 24px;
+  font-weight: bold;
+  background: #fff;
+  color: var(--dark-color);
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  table-layout: fixed;
+}
+
+thead th {
+  background-color: var(--blue-header);
+  color: white;
+  padding: 15px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+td {
+  border: 1px solid var(--border-color);
+  height: 90px;
+  vertical-align: top;
+  padding: 8px;
+}
+
+.day-number {
+  font-weight: bold;
+  color: #555;
+}
+
+td:first-child .day-number {
+  color: #e91e63; /* Красные воскресенья */
+}
+
+.task {
+  font-size: 0.8em;
+  color: #666;
+  margin-top: 4px;
+}
+
+.highlight {
+  background-color: #fcf8e3;
+}
+
+/* Анимации и прочее */
+h1 {
+  text-align: center;
+  color: var(--dark-color);
+}
+footer {
+  text-align: center;
+  margin-top: 50px;
+  color: #888;
+}
+.home-button {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 10px 20px;
+  background-color: var(--primary-color); /* Используем твой синий цвет */
+  color: white !important; /* Белый текст */
+  text-decoration: none; /* Убираем подчеркивание */
+  border-radius: 8px;
+  font-weight: bold;
+  transition:
+    background 0.3s,
+    transform 0.2s;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.home-button:hover {
+  background-color: #2980b9; /* Цвет чуть темнее при наведении */
+  transform: translateY(-2px); /* Эффект прыжка */
+}
+
+.home-button:active {
+  transform: translateY(0);
+}
+.calendar-link {
+  display: inline-block;
+  padding: 15px 25px;
+  background-color: #2ecc71; /* Красивый зеленый цвет */
+  color: white !important;
+  text-decoration: none;
+  border-radius: 10px;
+  font-weight: bold;
+  font-size: 1.2em;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 15px rgba(46, 204, 113, 0.3);
+}
+
+.calendar-link:hover {
+  background-color: #27ae60;
+  transform: scale(1.05); /* Кнопка немного увеличится при наведении */
+  box-shadow: 0 6px 20px rgba(46, 204, 113, 0.4);
+}
