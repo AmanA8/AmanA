@@ -1,3 +1,5 @@
+![Cyberpunk2077](https://github.com/user-attachments/assets/262767d9-eb36-402f-bf29-3019e7e64bae)
+![RimuruTempest](https://github.com/user-attachments/assets/467a78f4-aa09-4bc4-a71e-3483c486cd39)
 <html lang="ru">
   <head>
     <meta charset="UTF-8" />
@@ -14,13 +16,20 @@
         margin: 20px auto;
         border: 3px solid #3498db;
       }
+      .side-img {
+        display: block;
+        max-width: 100%;
+        height: auto;
+        border-radius: 12px;
+        margin: 15px auto;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+      }
       :root {
         --primary-color: #3498db;
         --dark-color: #2c3e50;
         --bg-color: #f4f4f9;
         --card-bg: #ffffff;
       }
-
       body {
         font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
         line-height: 1.6;
@@ -31,7 +40,6 @@
         color: #333;
         animation: fadeIn 1s ease-in;
       }
-
       @keyframes fadeIn {
         from {
           opacity: 0;
@@ -42,7 +50,6 @@
           transform: translateY(0);
         }
       }
-
       h1 {
         text-align: center;
         color: var(--dark-color);
@@ -50,7 +57,6 @@
         margin-bottom: 30px;
         text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
       }
-
       h2 {
         color: var(--dark-color);
         border-bottom: 3px solid var(--primary-color);
@@ -59,12 +65,10 @@
         display: flex;
         align-items: center;
       }
-
       ul {
         list-style-type: none;
         padding: 0;
       }
-
       li {
         margin-bottom: 12px;
         padding: 15px;
@@ -75,16 +79,13 @@
           transform 0.2s ease,
           box-shadow 0.2s ease;
       }
-
       li:hover {
         transform: translateY(-3px);
         box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
       }
-
       b {
         color: var(--primary-color);
       }
-
       .video-responsive {
         position: relative;
         padding-bottom: 56.25%;
@@ -94,7 +95,6 @@
         border-radius: 15px;
         box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
       }
-
       .video-responsive iframe {
         position: absolute;
         top: 0;
@@ -103,7 +103,6 @@
         height: 100%;
         border: 0;
       }
-
       footer {
         text-align: center;
         margin-top: 50px;
@@ -114,20 +113,18 @@
   </head>
   <body>
     <h1>Welcome to Aman's Page</h1>
-
     <h2>🎮 My Hobbies</h2>
     <ul>
       <li>📺 <b>Anime:</b> Watch anime (Isekai is life!)</li>
       <li>🌅 <b>Nature:</b> Watch the sunset and chill</li>
       <li>🕹️ <b>Gaming:</b> Mobile Legends, Roblox TDS, Minecraft</li>
     </ul>
-
     <h2>⭐ Favorite Media</h2>
     <ul>
       <li>🎬 <b>Top Anime:</b> Tensei Shitara Slime Datta Ken</li>
-      <img src="RimuruTempest.gif" alt="Rimuru" class="side-img" />
+      <img src="[RimuruTempest.gif](https://github.com/user-attachments/assets/467a78f4-aa09-4bc4-a71e-3483c486cd39)" alt="Rimuru" class="side-img" />
       <li>🏙️ <b>Current Game:</b> Cyberpunk 2077</li>
-      <img src="Cyberpunk2077.gif" alt="Cyberpunk" class="side-img" />
+      <img src="[Cyberpunk2077.gif](https://github.com/user-attachments/assets/262767d9-eb36-402f-bf29-3019e7e64bae)" alt="Cyberpunk" class="side-img" />
       <li>🎵 <b>Best Song:</b> PXLAP - Unforgettable</li>
       <div class="video-responsive">
         <iframe
@@ -146,8 +143,6 @@
         ></iframe>
       </div>
     </ul>
-
-
     <h2>🎁 Recommended Video XDD</h2>
     <div class="video-responsive">
       <iframe
