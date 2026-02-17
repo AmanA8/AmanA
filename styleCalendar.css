@@ -17,7 +17,6 @@ body {
   color: #333;
 }
 
-/* Стили профиля и картинок */
 .profile-pic {
   width: 150px;
   height: 150px;
@@ -37,7 +36,7 @@ body {
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
 
-/* Стили Календаря */
+
 .calendar-container {
   background: white;
   border-radius: 12px;
@@ -80,7 +79,7 @@ td {
 }
 
 td:first-child .day-number {
-  color: #e91e63; /* Красные воскресенья */
+  color: #e91e63; 
 }
 
 .task {
@@ -93,7 +92,7 @@ td:first-child .day-number {
   background-color: #fcf8e3;
 }
 
-/* Анимации и прочее */
+
 h1 {
   text-align: center;
   color: var(--dark-color);
@@ -108,9 +107,9 @@ footer {
   align-items: center;
   gap: 8px;
   padding: 10px 20px;
-  background-color: var(--primary-color); /* Используем твой синий цвет */
-  color: white !important; /* Белый текст */
-  text-decoration: none; /* Убираем подчеркивание */
+  background-color: var(--primary-color); 
+  color: white !important; 
+  text-decoration: none;
   border-radius: 8px;
   font-weight: bold;
   transition:
@@ -121,8 +120,8 @@ footer {
 }
 
 .home-button:hover {
-  background-color: #2980b9; /* Цвет чуть темнее при наведении */
-  transform: translateY(-2px); /* Эффект прыжка */
+  background-color: #2980b9; 
+  transform: translateY(-2px);
 }
 
 .home-button:active {
@@ -131,7 +130,7 @@ footer {
 .calendar-link {
   display: inline-block;
   padding: 15px 25px;
-  background-color: #2ecc71; /* Красивый зеленый цвет */
+  background-color: #2ecc71;
   color: white !important;
   text-decoration: none;
   border-radius: 10px;
@@ -143,6 +142,7 @@ footer {
 
 .calendar-link:hover {
   background-color: #27ae60;
-  transform: scale(1.05); /* Кнопка немного увеличится при наведении */
+  transform: scale(1.05); 
   box-shadow: 0 6px 20px rgba(46, 204, 113, 0.4);
 }
+
