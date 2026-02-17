@@ -75,7 +75,7 @@
       ></iframe>
     </div>
     <footer>
-      <p>© 2026 Aman. Made with ❤️ and Code.</p>
+      <p>© 2026 Aman. Code.</p>
     </footer>
   </body>
 </html>
