@@ -1,3 +1,4 @@
+
 :root {
   --primary-color: #3498db;
   --dark-color: #2c3e50;
@@ -16,6 +17,7 @@ body {
   background-color: var(--bg-color);
   color: #333;
 }
+
 
 .profile-pic {
   width: 150px;
@@ -102,47 +104,18 @@ footer {
   margin-top: 50px;
   color: #888;
 }
-.home-button {
-  display: inline-flex;
-  align-items: center;
-  gap: 8px;
-  padding: 10px 20px;
-  background-color: var(--primary-color); 
-  color: white !important; 
-  text-decoration: none;
-  border-radius: 8px;
-  font-weight: bold;
-  transition:
-    background 0.3s,
-    transform 0.2s;
-  margin-bottom: 20px;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+
+table td:nth-child(1) .day-number {
+  color: #e91e63;
 }
 
-.home-button:hover {
-  background-color: #2980b9; 
-  transform: translateY(-2px);
+
+table td:nth-child(7) .day-number {
+  color: #e91e63;
 }
 
-.home-button:active {
-  transform: translateY(0);
-}
-.calendar-link {
-  display: inline-block;
-  padding: 15px 25px;
-  background-color: #2ecc71;
-  color: white !important;
-  text-decoration: none;
-  border-radius: 10px;
-  font-weight: bold;
-  font-size: 1.2em;
-  transition: all 0.3s ease;
-  box-shadow: 0 4px 15px rgba(46, 204, 113, 0.3);
-}
 
-.calendar-link:hover {
-  background-color: #27ae60;
-  transform: scale(1.05); 
-  box-shadow: 0 6px 20px rgba(46, 204, 113, 0.4);
+table th:nth-child(1),
+table th:nth-child(7) {
+  background-color: #d32f2f; 
 }
-
