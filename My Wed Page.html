@@ -26,6 +26,9 @@
         <a href="#video" class="sidebar-link">
           <div class="sidebar-item">Featured Video</div>
         </a>
+        <a href="#contact" class="sidebar-link">
+          <div class="sidebar-item">Contact Me</div>
+        </a>
       </nav>
 
       <main class="content">
@@ -41,7 +44,7 @@
         <h2 id="calendar">📅 My Calendar</h2>
         <div style="text-align: center; margin: 20px 0">
           <a
-            href="Colendar.html"
+            href="Calendar.html"
             class="calendar-link"
             a
             href="styleColendar.css"
@@ -108,10 +111,55 @@
         </div>
 
         <footer>
+          <section id="contact" class="contact-section">
+            <h2 id="contact-title">📩 Contact Me</h2>
+            <div class="contact-container">
+              <form action="https://formspree.io/f/xaqdzrzp" method="POST">
+                <div class="input-row">
+                  <input
+                    type="text"
+                    name="full_name"
+                    placeholder="Full Name"
+                    required
+                  />
+                  <input type="number" name="age" placeholder="Age" />
+                </div>
+
+                <div class="input-row">
+                  <select name="gender" required>
+                    <option value="" disabled selected>Select Gender</option>
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                    <option value="other">Other</option>
+                  </select>
+                  <input
+                    type="email"
+                    name="email"
+                    placeholder="Email Address"
+                    required
+                  />
+                </div>
+
+                <textarea
+                  name="message"
+                  placeholder="Write your questions or comments here..."
+                  rows="5"
+                  required
+                ></textarea>
+
+                <button type="submit" class="submit-btn">Submit Message</button>
+
+                <input
+                  type="hidden"
+                  name="_subject"
+                  value="New Message from Aman's Page!"
+                />
+              </form>
+            </div>
+          </section>
           <p>© 2026 Aman. Made with ❤️ and Code.</p>
         </footer>
       </main>
     </div>
   </body>
 </html>
-
